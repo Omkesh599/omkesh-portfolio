@@ -9,16 +9,24 @@
 <!-- SEO -->
 <meta name="description" content="Omkesh Kumar Portfolio - Web Developer & AI/ML Enthusiast">
 
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- Font Awesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<!-- NAVBAR -->
+<!-- ============ NAVBAR ============ -->
 <header>
     <h2 class="logo">Portfolio</h2>
     <nav>
-        <a href="#hero">Home</a>
+        <a href="#hero" class="active">Home</a>
         <a href="#about">About</a>
         <a href="#certificates">Certificates</a>
         <a href="#projects">Projects</a>
@@ -28,18 +36,13 @@
     </nav>
 </header>
 
-<!-- HERO -->
+<!-- ============ HERO ============ -->
 <section class="hero" id="hero">
 
-    <div class="hero-img">
-        <div class="circle"></div>
-        <img src="image.jpg" alt="Omkesh Kumar">
-    </div>
-
     <div class="hero-text">
-        <h4>Hello, I'm</h4>
-        <h1>Omkesh Kumar</h1>
-        <h3>Web Developer & AI/ML Enthusiast</h3>
+        <h4>Hello, It's Me</h4>
+        <h1>Omkesh <span>Kumar</span></h1>
+        <h3>And I'm a <span>Web Developer</span> &amp; AI/ML Enthusiast</h3>
 
         <p>
             Passionate developer building modern websites and AI-based solutions.
@@ -52,157 +55,244 @@
         </div>
 
         <div class="social">
-            <a href="https://github.com/Omkesh599" target="_blank">GitHub</a>
-            <a href="https://www.linkedin.com/in/omkesh-kumar/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/Omkesh599" target="_blank" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/omkesh-kumar/" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="mailto:omkeshkumar30@gmail.com" aria-label="Email">
+                <i class="fas fa-envelope"></i>
+            </a>
         </div>
+    </div>
+
+    <div class="hero-img">
+        <img src="image.jpg" alt="Omkesh Kumar">
     </div>
 
 </section>
 
-<!-- ABOUT -->
+<!-- ============ ABOUT ============ -->
 <section id="about">
-    <h2>About Me</h2>
-    <p>
-        I'm Omkesh Kumar, a 3rd-year CSE student at GKV Haridwar with a strong interest in robotics, electronics, and coding. I’ve completed courses in C, C++, Python, HTML,CSS and Web developement and I enjoy solving problems through both hardware and software. I’m also passionate about creative activities like singing and painting, which help me stay balanced and think creatively. Always eager to learn and grow, I'm looking forward to gaining hands-on experience and collaborating on exciting tech projects.
-    </p>
+    <h2>About <span>Me</span></h2>
+    <div class="about-box">
+        <p>
+            I'm Omkesh Kumar, a 3rd-year CSE student at GKV Haridwar with a strong interest in robotics,
+            electronics, and coding. I've completed courses in C, C++, Python, HTML, CSS and Web
+            development and I enjoy solving problems through both hardware and software. I'm also
+            passionate about creative activities like singing and painting, which help me stay balanced
+            and think creatively. Always eager to learn and grow, I'm looking forward to gaining
+            hands-on experience and collaborating on exciting tech projects.
+        </p>
+    </div>
 </section>
 
-<!-- CERTIFICATES -->
+<!-- ============ CERTIFICATES ============ -->
 <section id="certificates">
-    <h2>Certificates</h2>
+    <h2>My <span>Certificates</span></h2>
 
     <div class="grid">
         <div class="card">
+            <div class="card-icon"><i class="fab fa-python"></i></div>
             <h3>Python Certificate</h3>
-            <a href="https://media.licdn.com/dms/image/v2/D562DAQFRxR5STFo69A/profile-treasury-image-shrink_1920_1920/B56ZdsUmdQHQAc-/0/1749869030768?e=1791828000&v=beta&t=eMeTatjuybeUfFSA9adw3eAMoZJCFeWXZSyoMGyz6EA" target="_blank">View Certificate</a>
+            <a href="https://media.licdn.com/dms/image/v2/D562DAQFRxR5STFo69A/profile-treasury-image-shrink_1920_1920/B56ZdsUmdQHQAc-/0/1749869030768?e=1791828000&v=beta&t=eMeTatjuybeUfFSA9adw3eAMoZJCFeWXZSyoMGyz6EA" target="_blank">View Certificate <i class="fas fa-arrow-right"></i></a>
         </div>
 
         <div class="card">
+            <div class="card-icon"><i class="fas fa-code"></i></div>
             <h3>Web Development</h3>
-            <a href="https://media.licdn.com/dms/image/v2/D562DAQE-AifVT2JhPA/profile-treasury-document-cover-images_1280/B56Z0K3Rn7H0Aw-/0/1774003758722?e=1791828000&v=beta&t=rG0PyFmxxMyv5-0xuJ0Obmp2P1Krhb9QBz8vDI5SxjQ" target="_blank">View Certificate</a>
+            <a href="https://media.licdn.com/dms/image/v2/D562DAQE-AifVT2JhPA/profile-treasury-document-cover-images_1280/B56Z0K3Rn7H0Aw-/0/1774003758722?e=1791828000&v=beta&t=rG0PyFmxxMyv5-0xuJ0Obmp2P1Krhb9QBz8vDI5SxjQ" target="_blank">View Certificate <i class="fas fa-arrow-right"></i></a>
         </div>
+
         <div class="card">
-            <h3>C and c++</h3>
-            <a herf="https://media.licdn.com/dms/image/v2/D562DAQFkjjvPVofL-A/profile-treasury-image-shrink_8192_8192/B56ZdsayS2GQAg-/0/1749870652788?e=1791828000&v=beta&t=iSSWUNeFL_LW28JYBiPJlmSgBIXQ_OHtpEB6PJRxu5E" target="_blank">View Certificate</a>
+            <div class="card-icon"><i class="fas fa-laptop-code"></i></div>
+            <h3>C and C++</h3>
+            <a href="https://media.licdn.com/dms/image/v2/D562DAQFkjjvPVofL-A/profile-treasury-image-shrink_8192_8192/B56ZdsayS2GQAg-/0/1749870652788?e=1791828000&v=beta&t=iSSWUNeFL_LW28JYBiPJlmSgBIXQ_OHtpEB6PJRxu5E" target="_blank">View Certificate <i class="fas fa-arrow-right"></i></a>
         </div>
+
         <div class="card">
-            <h3>AI for beginners</h3>
-            <a href="https://media.licdn.com/dms/image/v2/D562DAQHSzek7SlyFxQ/profile-treasury-image-shrink_1280_1280/B56ZhUflN0HUAU-/0/1753764223711?e=1791828000&v=beta&t=fZoZ_RXYouEuldd4M61L48U4vh_cx1AofPX6XDTV0ME" target="_blank">View Certificate</a>
+            <div class="card-icon"><i class="fas fa-brain"></i></div>
+            <h3>AI for Beginners</h3>
+            <a href="https://media.licdn.com/dms/image/v2/D562DAQHSzek7SlyFxQ/profile-treasury-image-shrink_1280_1280/B56ZhUflN0HUAU-/0/1753764223711?e=1791828000&v=beta&t=fZoZ_RXYouEuldd4M61L48U4vh_cx1AofPX6XDTV0ME" target="_blank">View Certificate <i class="fas fa-arrow-right"></i></a>
         </div>
-         <div class="card">
+
+        <div class="card">
+            <div class="card-icon"><i class="fas fa-robot"></i></div>
             <h3>Gen AI</h3>
-            <a href="https://media.licdn.com/dms/image/v2/D4D2DAQEONWhFybKWFw/profile-treasury-document-images_1920/B4DZ8HMq8lI0Ak-/1/1782532191504?e=1792022400&v=beta&t=hVZVVN-H09dp0yQcpb15QI24QjEplp6orHGJl-aqceM" target="_blank">View Certificate</a>
+            <a href="https://media.licdn.com/dms/image/v2/D4D2DAQEONWhFybKWFw/profile-treasury-document-images_1920/B4DZ8HMq8lI0Ak-/1/1782532191504?e=1792022400&v=beta&t=hVZVVN-H09dp0yQcpb15QI24QjEplp6orHGJl-aqceM" target="_blank">View Certificate <i class="fas fa-arrow-right"></i></a>
         </div>
-        
-         <div class="card">
-            <h3>Bajaj manufacturing system</h3>
-            <a href="https://media.licdn.com/dms/image/v2/D562DAQGpOWjGIvE04w/profile-treasury-image-shrink_1920_1920/B56Zm31G6JG4Ac-/0/1759725778332?e=1791828000&v=beta&t=M-8aAbBfFvX1MtdppwJ7uAfqvOjIV7g9hVZBdSmqvnY" target="_blank">View Certificate</a>
+
+        <div class="card">
+            <div class="card-icon"><i class="fas fa-industry"></i></div>
+            <h3>Bajaj Manufacturing System</h3>
+            <a href="https://media.licdn.com/dms/image/v2/D562DAQGpOWjGIvE04w/profile-treasury-image-shrink_1920_1920/B56Zm31G6JG4Ac-/0/1759725778332?e=1791828000&v=beta&t=M-8aAbBfFvX1MtdppwJ7uAfqvOjIV7g9hVZBdSmqvnY" target="_blank">View Certificate <i class="fas fa-arrow-right"></i></a>
         </div>
-    <div class="card">
-            <h3>Google AI workshop</h3>
-            <a href="https://media.licdn.com/dms/image/v2/D562DAQG7fTdnvj5z0A/profile-treasury-image-shrink_1920_1920/B56Zj3DRddH8Ag-/0/1756491489386?e=1791828000&v=beta&t=Nzma-uK05Di2EIK1Niul1k0RpuJl6mnKfA0irYyP7dg" target="_blank">View Certificate</a>
-        </div>
+
+        <div class="card">
+            <div class="card-icon"><i class="fab fa-google"></i></div>
+            <h3>Google AI Workshop</h3>
+            <a href="https://media.licdn.com/dms/image/v2/D562DAQG7fTdnvj5z0A/profile-treasury-image-shrink_1920_1920/B56Zj3DRddH8Ag-/0/1756491489386?e=1791828000&v=beta&t=Nzma-uK05Di2EIK1Niul1k0RpuJl6mnKfA0irYyP7dg" target="_blank">View Certificate <i class="fas fa-arrow-right"></i></a>
         </div>
     </div>
 </section>
 
-<!-- PROJECTS -->
+<!-- ============ PROJECTS ============ -->
 <section id="projects">
-    <h2>Projects</h2>
+    <h2>My <span>Projects</span></h2>
+
+    <div class="grid">
+        <div class="card project-card">
+            <div class="card-icon"><i class="fas fa-shield-alt"></i></div>
+            <h3>Fraud Website Detector</h3>
+            <p>Chrome extension to detect unsafe websites in real time.</p>
+            <a href="https://github.com/Omkesh599/OM-s-Safer-fraud-website-detector" target="_blank">
+                <i class="fab fa-github"></i> View on GitHub
+            </a>
+        </div>
+
+        <div class="card project-card">
+            <div class="card-icon"><i class="fas fa-gamepad"></i></div>
+            <h3>OM Block Game</h3>
+            <p>Tetris game clone built using Python.</p>
+            <a href="https://github.com/Omkesh599/OM-Blocks-A-clone-of-Tetris-game-using-Python-" target="_blank">
+                <i class="fab fa-github"></i> View on GitHub
+            </a>
+        </div>
+
+        <div class="card project-card">
+            <div class="card-icon"><i class="fas fa-headset"></i></div>
+            <h3>AI Customer Ticketing System</h3>
+            <p>Automatically manages customer support queries using AI.</p>
+            <a href="https://github.com/Omkesh599/AI-Based-Customer-Support-Ticketing-System" target="_blank">
+                <i class="fab fa-github"></i> View on GitHub
+            </a>
+        </div>
+
+        <div class="card project-card">
+            <div class="card-icon"><i class="fas fa-cloud-sun"></i></div>
+            <h3>Advanced Weather App</h3>
+            <p>OM Weather provides real-time weather information for users.</p>
+            <a href="https://github.com/Omkesh599/weather-app" target="_blank">
+                <i class="fab fa-github"></i> View on GitHub
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- ============ EXPERIENCE ============ -->
+<section id="experience">
+    <h2>My <span>Experience</span></h2>
 
     <div class="grid">
         <div class="card">
-            <h3>Fraud Website Detector</h3>
-            <p>Chrome extension to detect unsafe websites.</p>
-            <a href="https://github.com/Omkesh599/OM-s-Safer-fraud-website-detector" target="_blank">GitHub</a>
+            <h3>Web Development Intern</h3>
+            <p class="company">Codec Technology</p>
+            <p class="duration"><i class="far fa-clock"></i> 1 Month Internship</p>
         </div>
 
         <div class="card">
-            <h3>OM block game</h3>
-            <p>tetris game clone using python.</p>
-            <a href="https://github.com/Omkesh599/OM-Blocks-A-clone-of-Tetris-game-using-Python-" target="_blank">GitHub</a>
+            <h3>Python Developer Intern</h3>
+            <p class="company">Codesoft</p>
+            <p class="duration"><i class="far fa-clock"></i> 1 Month Internship</p>
         </div>
+
         <div class="card">
-            <h3>AI based customer ticketing support system</h3>
-            <p>This system automatically manages customer support queries using AI</p>
-            <a href="https://github.com/Omkesh599/AI-Based-Customer-Support-Ticketing-System" target="_blank">GitHub</a>
+            <h3>Student Ambassador</h3>
+            <p class="company">Internshala</p>
+            <p class="duration"><i class="far fa-clock"></i> 6 Months</p>
         </div>
+
         <div class="card">
-            <h3>Advance Weather App</h3>
-            <p>OM Weather provides weather information for general purposes only.</p>
-            <a href="https://github.com/Omkesh599/weather-app" target="_blank">GitHub</a>
+            <h3>Data Analyst Intern</h3>
+            <p class="company">VI</p>
+            <p class="duration"><i class="far fa-clock"></i> 1 Month</p>
+        </div>
+
+        <div class="card">
+            <h3>AI for Sustainability</h3>
+            <p class="company">1M 1B</p>
+            <p class="duration"><i class="far fa-clock"></i> 2 Months</p>
+        </div>
+
+        <div class="card">
+            <h3>Emerging Technologies Intern</h3>
+            <p class="company">Edunet Foundation</p>
+            <p class="duration"><i class="far fa-clock"></i> 1 Month</p>
         </div>
     </div>
 </section>
 
-<!-- EXPERIENCE -->
-<section id="experience">
-    <h2>Experience</h2>
-    <div class="card">
-        <h3>Web Development Intern</h3>
-        <p>Codec Technology (1 Month Internship)</p>
-    </div>
-    <div class="card">
-        <h3>python developer Intern</h3>
-        <p>Codesoft (1 Month Internship)</p>
-    </div>
-    <div class="card">
-        <h3>Student Ambassador</h3>
-        <p>internshala (6 Month)</p>
-    </div>
-    <div class="card">
-        <h3>Data Analyst Intern</h3>
-        <p> VI (1 month)</p>
-    </div>
-    <div class="card">
-        <h3>AI for Sustainbality</h3>
-        <p>1M 1B (2 Month)</p>
-    </div>
-    <div class="card">
-        <h3>Emerging Technologies Intern</h3>
-        <p>Edunet Foundation(1 Month)</p>
-    </div>
-</section>
-
-<!-- SKILLS -->
+<!-- ============ SKILLS ============ -->
 <section id="skills">
-    <h2>Skills</h2>
+    <h2>My <span>Skills</span></h2>
 
     <div class="skills">
-        <span>C</span>
-        <span>Python</span>
-        <span>Java</span>
-        <span>Web Development</span>
-        <span>AI/ML</span>
-        <span>JAVA</span>
-        <span>SQL</span>
-        <span>GEN AI</span>
-        <span>Data Analytics</span>
-        <span>Data Science</span>
-        
+        <span><i class="fas fa-code"></i> C</span>
+        <span><i class="fab fa-python"></i> Python</span>
+        <span><i class="fab fa-java"></i> Java</span>
+        <span><i class="fas fa-globe"></i> Web Development</span>
+        <span><i class="fas fa-brain"></i> AI/ML</span>
+        <span><i class="fas fa-database"></i> SQL</span>
+        <span><i class="fas fa-robot"></i> Gen AI</span>
+        <span><i class="fas fa-chart-line"></i> Data Analytics</span>
+        <span><i class="fas fa-flask"></i> Data Science</span>
     </div>
 </section>
 
-<!-- CONTACT -->
+<!-- ============ CONTACT ============ -->
 <section id="contact">
-    <h2>Contact</h2>
+    <h2>Contact <span>Me</span></h2>
 
-    <p>Email: omkeshkumar30@gmail.com</p>
+    <div class="contact-box">
+        <p class="contact-text">Let's build something great together. Feel free to reach out.</p>
 
-    <p>
-        GitHub:
-        <a href="https://github.com/Omkesh599" target="_blank">github.com/Omkesh599</a>
-    </p>
+        <div class="contact-info">
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <span>omkeshkumar30@gmail.com</span>
+            </div>
+            <div class="contact-item">
+                <i class="fab fa-github"></i>
+                <a href="https://github.com/Omkesh599" target="_blank">github.com/Omkesh599</a>
+            </div>
+            <div class="contact-item">
+                <i class="fab fa-linkedin-in"></i>
+                <a href="https://www.linkedin.com/in/omkesh-kumar/" target="_blank">linkedin.com/in/omkesh-kumar</a>
+            </div>
+        </div>
 
-    <p>
-        LinkedIn:
-        <a href="https://www.linkedin.com/in/omkesh-kumar/" target="_blank">linkedin.com/in/omkesh-kumar</a>
-    </p>
+        <a href="mailto:omkeshkumar30@gmail.com" class="btn primary">
+            <i class="fas fa-paper-plane"></i> Send Message
+        </a>
+    </div>
 </section>
 
+<!-- ============ FOOTER ============ -->
 <footer>
-    <p>© 2026 Omkesh Kumar</p>
+    <p>© 2026 <span>Omkesh Kumar</span>. All rights reserved.</p>
 </footer>
+
+<!-- Scroll-spy -->
+<script>
+    const sections = document.querySelectorAll("section[id]");
+    const navLinks = document.querySelectorAll("nav a");
+
+    window.addEventListener("scroll", () => {
+        let current = "";
+        sections.forEach(sec => {
+            const top = sec.offsetTop - 120;
+            if (window.scrollY >= top) current = sec.id;
+        });
+
+        navLinks.forEach(link => {
+            link.classList.remove("active");
+            if (link.getAttribute("href") === "#" + current) {
+                link.classList.add("active");
+            }
+        });
+    });
+</script>
 
 </body>
 </html>
